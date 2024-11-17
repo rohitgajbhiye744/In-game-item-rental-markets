@@ -1,0 +1,15 @@
+[package]
+name = "In-game item rental markets"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0x6830d866acc107c8e23e449205f558000810c6221d75158387043e4dec5397c2'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
